@@ -73,6 +73,16 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
 ```
+### replace plugins with following:
+```sh
+plugins=(
+    "sudo"
+    "git"                     # (default)
+    "zsh-autosuggestions"     # (default)
+    "zsh-syntax-highlighting" # (default)
+    "zsh-completions"         # (default)
+)
+```
 
 ## install nvm  
 ```sh
@@ -149,4 +159,16 @@ git config --global pull.rebase true
 ## install lazygit
 ```sh
 yay -S lazygit
+```
+
+## docker installation
+```sh
+yay -S docker docker-compose docker-buildx
+sudo systemctl enable docker.service
+sudo systemctl start docker.service
+```
+
+## enabling non-root users to run docker commands (docker post installation)
+```sh
+sudo groupadd docker
 ```
