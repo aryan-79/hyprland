@@ -62,7 +62,7 @@ font-family="JetBrains Mono"
 yay -S tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm #clone tpm
 tmux source ~/.tmux.conf
-#install plugins with prefix + I
+#remember to install plugins with prefix + I
 ```
 
 ## zsh plugins configuration
