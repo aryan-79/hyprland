@@ -138,3 +138,8 @@ git config --global user.email "aryanmgr79@gmail.com"
 git config --global user.name "aryan"
 git config --global pull.rebase true
 ```
+
+## install lazygit
+```sh
+yay -S lazygit
+```
