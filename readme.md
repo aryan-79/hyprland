@@ -171,4 +171,6 @@ sudo systemctl start docker.service
 ## enabling non-root users to run docker commands (docker post installation)
 ```sh
 sudo groupadd docker
+sudo usermod -aG docker $USER
+# reboot
 ```
