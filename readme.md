@@ -44,7 +44,9 @@ yay -S cliphist wofi-emoji noto-fonts-emoji
 - unzip the file to `/usr/share/fonts`
 - fc-cache -fv
 - verify with fc-list
+
 OR
+
 ```sh
 yay -S nerd-fonts # select jet brains nerd font
 ```
@@ -90,6 +92,11 @@ power on
 agent on
 default-agent
 scan on
+```
+
+## install blueberry for bluetooth control ui
+```sh
+yay -S blueberry
 ```
 
 ## install pavucontrol
