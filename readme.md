@@ -8,6 +8,11 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 yay -S hypridle hyprlock hyprpaper hyprshot
 ```
 
+## install required packages for walker
+```sh
+yay -S elephant elephant-desktopapplications elephant-calc elephant-runner elephant-files elephant-clipboard elephant-websearch
+```
+
 ## install swaync for notifications
 ```sh
 yay -S swaync
